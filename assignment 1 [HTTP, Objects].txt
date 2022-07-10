@@ -1,0 +1,57 @@
+Q)1)
+
+-HTTP stands for hypertext transfer protocol & it is used in client-server communication. By using HTTP user sends the request to the server & the 
+server sends the response to the user.
+-HTTP2 aims to be a faster and more efficient protocol. HTTP1.1 is the current predecessor. The problem with HTTP1.1 is that it can only load requests
+one at a time, one request per one TCP connection. Basically, this made browsers run parallel requests to multiple TCPs for the same web asset.
+This clogs up "the wire" with multiple duplicate data requests, and can hurt performance if too many requests are made.
+-Below are the high-level differences between HTTP1 and HTTP2:
+1) HTTP2 has higher compatibility.
+2) HTTP2  boosts page speed.
+3) HTTP2 is binary, instead of textual.
+4) HTTP2 is fully multiplexed, instead of ordered and blocking.
+5) HTTP2 can, therefore, use one connection for parallelism.
+6) HTTP2 uses header compression to reduce overhead.
+7) HTTP2 allows servers to "push" responses proactively into client caches.
+
+
+Q)2)
+
+-In Javascript, an object is a standalone entity, with properties and type. It can be compared to real life objects like human, car, bike, chair etc.
+-Objects are collection of key value pair. Keys are in the form of string and values are in the form of string, number, boolean, complex level data 
+type like array, function and object.
+var objName = {};
+-Its internal representation in Javascript:
+
+Objects can be created using 2 notations:
+1) Dot notation: objectRef.properties
+Ex. let myCar = new Object();
+    myCar.make = 'Ford';
+    myCar.model = 'Mustang';
+    myCar.year = 1969;
+
+2) Bracket notation: objectRef['prop']
+   myCar['make'] = 'Ford';
+   myCar['model'] = 'Mustang';
+   myCar['year'] = 1969;
+
+Simple way to create an object is as below:
+let obj = {
+prop1: value1,
+prop2: value2,
+}
+Ex. let myCar = {
+make: 'Ford',
+model: 'Mustang',
+year: 1969
+};
+
+
+
+
+
+
+
+
+
+
